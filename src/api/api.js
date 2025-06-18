@@ -4,6 +4,7 @@ import axios from "axios";
 const API_KEY = "9bb2f7d3dfca419c8f2e23e692fdfb32";
 const BASE_URL = "https://api.rawg.io/api";
 
+// https://api.rawg.io/api/9bb2f7d3dfca419c8f2e23e692fdfb32/games/elden-ring
 const api = axios.create({
   baseURL: BASE_URL,
   params: {

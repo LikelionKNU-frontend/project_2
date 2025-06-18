@@ -7,8 +7,9 @@ function App() {
   return (
     <div>
       <Nav />
-      <h1>App</h1>
-      <GameInfo slug="elden-ring" />
+      {/* <GameInfo slug="dark-souls-iii" /> */}
+      {/* <GameInfo slug="elden-ring" /> */}
+      <GameInfo slug="grand-theft-auto-v" />
       <p>겨여여영계</p>
       <Footer />
     </div>
