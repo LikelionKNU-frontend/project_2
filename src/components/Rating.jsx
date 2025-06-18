@@ -15,7 +15,7 @@ function Rating({ rating }) {
   }
 
   return (
-    <div>
+    <div className="game_rating">
       <span>{stars}</span>
     </div>
   );

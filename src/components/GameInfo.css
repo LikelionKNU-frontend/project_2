@@ -1,9 +1,13 @@
+.gameInfo_wrap {
+  margin-top: -33px;
+}
 .gameInfo {
   background: #eff0ff;
 }
 .game_name {
+  font-size: 40px;
   position: relative;
-  left: 161px;
+  left: 110px;
   padding-top: 20px;
 }
 
@@ -43,13 +47,4 @@
   overflow-y: scroll;
   width: 430px;
   height: 150px;
-}
-.game_tags {
-  width: 178px;
-  height: 79px;
-  overflow-y: scroll;
-  margin-top: 260px;
-}
-.game_tags span {
-  height: 30px;
 }

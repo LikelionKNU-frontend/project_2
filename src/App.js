@@ -8,8 +8,8 @@ function App() {
     <div>
       <Nav />
       {/* <GameInfo slug="dark-souls-iii" /> */}
-      {/* <GameInfo slug="elden-ring" /> */}
-      <GameInfo slug="grand-theft-auto-v" />
+      <GameInfo slug="elden-ring" />
+      {/* <GameInfo slug="grand-theft-auto-v" /> */}
       <p>겨여여영계</p>
       <Footer />
     </div>

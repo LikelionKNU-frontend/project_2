@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { fetchGameImages, fetchGameInfo } from "../api/api";
 import "./GameInfo.css";
 import Rating from "./Rating";
+import Category from "./Category";
+import Platform from "./Platfomr";
 
 function GameInfo({ slug }) {
   const [game, setGame] = useState(null);
@@ -66,18 +68,10 @@ function GameInfo({ slug }) {
               <p className="game_date">{game.released}</p>
             </div>
           </div>
-          <div className="game_tags">
-            {game.tags.slice(0, 10)?.map((t) => (
-              <span key={t.id}>{t.name} </span>
-            ))}
-          </div>
+          <Category tags={game.tags} />
         </div>
       </div>
-      <div style={{ display: "flex", gap: "10px" }}>
-        {game.platforms?.map((p) => (
-          <p key={p.platform.id}>{p.platform.name}</p>
-        ))}
-      </div>
+      <Platform platforms={game.platforms} />
     </div>
   );
 }

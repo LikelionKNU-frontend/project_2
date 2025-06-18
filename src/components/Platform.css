@@ -1,0 +1,69 @@
+.platform {
+  margin-top: 58px;
+  margin-left: 60px;
+}
+
+.platform h1 {
+  width: 1320px;
+  border-bottom: 3px solid #a0b9f5;
+  padding-bottom: 8px;
+}
+.platform_icon_list {
+  display: flex;
+  gap: 16px;
+}
+.platform_icon {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid #a0b9f5;
+}
+
+.platform svg {
+  height: 50px;
+  width: 50px;
+  padding: 4px;
+}
+
+.platform_icon .PC svg {
+  color: #0078d7;
+}
+.platform_icon .PlayStation svg,
+.platform_icon .PS-Vita svg {
+  color: #003791;
+}
+
+.platform_icon .Xbox svg {
+  color: #107c10;
+}
+.platform_icon .Xbox360 {
+  color: #a0d034;
+}
+.platform_icon .Nintendo svg {
+  color: #e60012;
+}
+.platform_icon .Wii-U {
+  color: #62b5e5;
+}
+.platform_icon .Wii {
+  color: #8b8b8b;
+}
+.platform_icon .GameCube {
+  color: #6a5acd;
+}
+.platform_icon .iOS {
+  color: #000;
+}
+.platform_icon .Android {
+  color: #3ddc84;
+}
+.platform_icon .macOS {
+  color: #999;
+}
+.platform_icon .Linux {
+  color: #ffcc00;
+}
+.platform_icon .Web {
+  color: #808080;
+}
