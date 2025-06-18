@@ -78,9 +78,4 @@ function GameInfo({ slug }) {
 
 export default GameInfo;
 
-// {/* <div style={{ display: "flex", gap: "10px" }}>
-//   {game.platforms?.map((p) => (
-//     <p key={p.platform.id}>{p.platform.name}</p>
-//   ))}
-// </div>;
 // <p>{game.website}</p> */}

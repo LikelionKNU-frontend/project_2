@@ -5,12 +5,10 @@ import {
   FaXbox,
   FaLinux,
   FaAndroid,
-  FaApple,
   FaGlobe,
 } from "react-icons/fa";
 import {
   SiNintendoswitch,
-  SiIos,
   SiMacos,
   SiPlaystation5,
   SiPlaystation3,
@@ -49,7 +47,11 @@ function Platform({ platforms }) {
         <div className="platform_icon_list">
           {platforms?.map((p) => (
             <div className="platform_icon">
-              <div key={p.platform.id} className={p.platform.name}>
+              <div
+                key={p.platform.id}
+                className={p.platform.name}
+                name={p.platform.name}
+              >
                 {platformIcons[p.platform.name]}
               </div>
             </div>
