@@ -1,29 +1,75 @@
-import "./Nav.css";
+import styled from "styled-components";
+
+const NavBox = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 0 60px;
+  background: #2c3e50;
+  color: #ffffff;
+`;
+
+const Logo = styled.h1`
+  a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+`;
+
+const NavList = styled.ul`
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li a {
+    font-size: 16px;
+    color: #cfd6e1;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  li.active a {
+    color: #a0b9f5;
+    font-weight: bold;
+    border-bottom: 2px solid #a0b9f5;
+  }
+
+  li a:hover {
+    color: #a0b9f5;
+    border-bottom: 2px solid #a0b9f5;
+    padding-bottom: 4px;
+  }
+`;
 
 function Nav() {
   return (
-    <div className="nav">
-      <h1 className="logo">
+    <NavBox>
+      <Logo>
         <a href="?#">Game Zone</a>
-      </h1>
-      <ul className="nav_list">
+      </Logo>
+      <NavList>
         <li className="home">
-          <a href="?#">홈</a>
+          <a href="?#">Home</a>
         </li>
         <li className="event">
-          <a href="?#">이벤트</a>
+          <a href="?#">Event</a>
         </li>
         <li className="coming">
-          <a href="?#">출시예정</a>
+          <a href="?#">Coming</a>
         </li>
         <li className="comunity">
-          <a href="?#">커뮤니티</a>
+          <a href="?#">Comunity</a>
         </li>
         <li className="mypage">
-          <a href="?#">마이페이지</a>
+          <a href="?#">MyPage</a>
         </li>
-      </ul>
-    </div>
+      </NavList>
+    </NavBox>
   );
 }
 

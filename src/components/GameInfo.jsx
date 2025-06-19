@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { fetchGameImages, fetchGameInfo } from "../api/api";
-import "./GameInfo.css";
+import "../assets/GameInfo.css";
 import Rating from "./Rating";
 import Category from "./Category";
 import Platform from "./Platfomr";
 import GameSpecs from "./GameSpecs";
+import Loading from "./Loading";
+import Error from "./Error";
 
 function GameInfo({ slug }) {
   const [game, setGame] = useState(null);
@@ -29,8 +31,8 @@ function GameInfo({ slug }) {
     loadData();
   }, [slug]);
 
-  if (loading) return <p>로딩 중...</p>;
-  if (!game) return <p>게임 정보를 불러올 수 없습니다.</p>;
+  if (loading) return <Loading />;
+  if (!game) return <Error />;
 
   return (
     <div className="gameInfo_wrap">
@@ -66,7 +68,7 @@ function GameInfo({ slug }) {
             <p className="info_content">{game.description_raw}</p>
             <div className="info_ra_da">
               <Rating rating={game.rating} />
-              <p className="game_date">{game.released}</p>
+              <p className="game_date">Released : {game.released}</p>
             </div>
           </div>
           <Category tags={game.tags} />

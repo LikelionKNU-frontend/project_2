@@ -1,5 +1,11 @@
-import "./Rating.css";
+import styled from "styled-components";
 import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
+
+const Star = styled.div`
+  svg {
+    fill: #e2e223;
+  }
+`;
 
 function Rating({ rating }) {
   const stars = [];
@@ -15,9 +21,9 @@ function Rating({ rating }) {
   }
 
   return (
-    <div className="game_rating">
+    <Star>
       <span>{stars}</span>
-    </div>
+    </Star>
   );
 }
 

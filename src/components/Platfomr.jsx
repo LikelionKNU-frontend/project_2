@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import "./Platform.css";
+import "../assets/Platform.css";
 
 import {
   FaWindows,
@@ -71,13 +71,14 @@ const PlatformIcon = styled.div`
   border: 2px solid #a0b9f5;
   p {
     font-size: 10px;
+    margin: 4px 0;
   }
 `;
 
 function Platform({ platforms }) {
   return (
     <PlatformBox>
-      <H1>플랫폼</H1>
+      <H1>Platform</H1>
       <PlatformIconList>
         {platforms?.map((p) => (
           <PlatformIcon>

@@ -1,162 +1,162 @@
 {
   "elden-ring": {
     "minimum": {
-      "os": "윈도우 10",
-      "cpu": "인텔 코어 i5-8400 / AMD 라이젠 3 3300X",
-      "ram": "12GB 메모리",
-      "gpu": "지포스 GTX 1060 3GB / 라데온 RX 580 4GB",
-      "storage": "60GB 여유 공간"
+      "os": "Windows 10",
+      "cpu": "Intel 코어 i5-8400 / AMD Ryzen 3 3300X",
+      "ram": "12GB RAM",
+      "gpu": "GeForce GTX 1060 3GB / Radeon RX 580 4GB",
+      "storage": "60GB available space"
     },
     "recommended": {
-      "os": "윈도우 10 / 11",
-      "cpu": "인텔 코어 i7-8700K / AMD 라이젠 5 3600X",
-      "ram": "16GB 메모리",
-      "gpu": "지포스 GTX 1070 8GB / 라데온 RX VEGA 56 8GB",
-      "storage": "60GB SSD 권장"
+      "os": "Windows 10 / 11",
+      "cpu": "Intel 코어 i7-8700K / AMD Ryzen 5 3600X",
+      "ram": "16GB RAM",
+      "gpu": "GeForce GTX 1070 8GB / Radeon RX VEGA 56 8GB",
+      "storage": "60GB SSD recommended"
     }
   },
   "the-witcher-3-wild-hunt": {
     "minimum": {
-      "os": "64비트 윈도우 7 / 8 / 10",
-      "cpu": "인텔 i5-2500K / AMD FX-6300",
-      "ram": "6GB 메모리",
-      "gpu": "지포스 GTX 660 / 라데온 HD 7870",
-      "storage": "35GB 여유 공간"
+      "os": "64-bit Windows 7 / 8 / 10",
+      "cpu": "Intel i5-2500K / AMD FX-6300",
+      "ram": "6GB RAM",
+      "gpu": "GeForce GTX 660 / Radeon HD 7870",
+      "storage": "35GB available space"
     },
     "recommended": {
-      "os": "64비트 윈도우 10",
-      "cpu": "인텔 i7-3770 / AMD FX-8350",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 770 / 라데온 R9 290",
-      "storage": "35GB SSD 권장"
+      "os": "64-bit Windows 10",
+      "cpu": "Intel i7-3770 / AMD FX-8350",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 770 / Radeon R9 290",
+      "storage": "35GB SSD recommended"
     }
   },
   "cyberpunk-2077": {
     "minimum": {
-      "os": "윈도우 10 64비트",
-      "cpu": "인텔 i5-3570K / AMD FX-8310",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 780 / 라데온 RX 470",
-      "storage": "70GB SSD 권장"
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5-3570K / AMD FX-8310",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 780 / Radeon RX 470",
+      "storage": "70GB SSD recommended"
     },
     "recommended": {
-      "os": "윈도우 10 64비트",
-      "cpu": "인텔 i7-4790 / AMD Ryzen 3 3200G",
-      "ram": "12GB 메모리",
-      "gpu": "지포스 GTX 1060 / 라데온 R9 Fury",
-      "storage": "70GB SSD 필수"
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i7-4790 / AMD Ryzen 3 3200G",
+      "ram": "12GB RAM",
+      "gpu": "GeForce GTX 1060 / Radeon R9 Fury",
+      "storage": "70GB SSD required"
     }
   },
   "red-dead-redemption-2": {
     "minimum": {
-      "os": "윈도우 7 SP1",
-      "cpu": "인텔 i5-2500K / AMD FX-6300",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 770 / 라데온 R9 280",
-      "storage": "150GB 여유 공간"
+      "os": "Windows 7 SP1",
+      "cpu": "Intel i5-2500K / AMD FX-6300",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 770 / Radeon R9 280",
+      "storage": "150GB available space"
     },
     "recommended": {
-      "os": "윈도우 10",
-      "cpu": "인텔 i7-4770K / AMD Ryzen 5 1500X",
-      "ram": "12GB 메모리",
-      "gpu": "지포스 GTX 1060 6GB / 라데온 RX 480 4GB",
-      "storage": "150GB SSD 권장"
+      "os": "Windows 10",
+      "cpu": "Intel i7-4770K / AMD Ryzen 5 1500X",
+      "ram": "12GB RAM",
+      "gpu": "GeForce GTX 1060 6GB / Radeon RX 480 4GB",
+      "storage": "150GB SSD recommended"
     }
   },
   "grand-theft-auto-v": {
     "minimum": {
-      "os": "윈도우 7 64비트",
-      "cpu": "인텔 Core 2 Quad Q6600 / AMD Phenom 9850",
-      "ram": "4GB 메모리",
-      "gpu": "지포스 9800 GT / 라데온 HD 4870",
-      "storage": "72GB 여유 공간"
+      "os": "Windows 7 64-bit",
+      "cpu": "Intel Core 2 Quad Q6600 / AMD Phenom 9850",
+      "ram": "4GB RAM",
+      "gpu": "GeForce 9800 GT / Radeon HD 4870",
+      "storage": "72GB available space"
     },
     "recommended": {
-      "os": "윈도우 10 64비트",
-      "cpu": "인텔 i5 3470 / AMD FX-8350",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 660 / 라데온 HD 7870",
-      "storage": "72GB SSD 권장"
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5 3470 / AMD FX-8350",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 660 / Radeon HD 7870",
+      "storage": "72GB SSD recommended"
     }
   },
   "hollow-knight": {
     "minimum": {
-      "os": "윈도우 7",
-      "cpu": "인텔 Core 2 Duo E5200",
-      "ram": "4GB 메모리",
-      "gpu": "지포스 9800GTX+",
-      "storage": "9GB 여유 공간"
+      "os": "Windows 7",
+      "cpu": "Intel Core 2 Duo E5200",
+      "ram": "4GB RAM",
+      "gpu": "GeForce 9800GTX+",
+      "storage": "9GB available space"
     },
     "recommended": {
-      "os": "윈도우 10",
-      "cpu": "인텔 Core i5",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 560",
-      "storage": "9GB SSD 권장"
+      "os": "Windows 10",
+      "cpu": "Intel Core i5",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 560",
+      "storage": "9GB SSD recommended"
     }
   },
   "stardew-valley": {
     "minimum": {
-      "os": "윈도우 Vista 이상",
-      "cpu": "2GHz 듀얼코어",
-      "ram": "2GB 메모리",
-      "gpu": "인텔 HD 그래픽스 3000 이상",
-      "storage": "500MB 여유 공간"
+      "os": "Windows Vista or higher",
+      "cpu": "2GHz Dual-core",
+      "ram": "2GB RAM",
+      "gpu": "Intel HD Graphics 3000 or higher",
+      "storage": "500MB available space"
     },
     "recommended": {
-      "os": "윈도우 10",
-      "cpu": "2.5GHz 듀얼코어",
-      "ram": "4GB 메모리",
-      "gpu": "지포스 GTX 660 이상",
-      "storage": "500MB SSD 권장"
+      "os": "Windows 10",
+      "cpu": "2.5GHz Dual-core",
+      "ram": "4GB RAM",
+      "gpu": "GeForce GTX 660 or higher",
+      "storage": "500MB SSD recommended"
     }
   },
   "hades": {
     "minimum": {
-      "os": "윈도우 7 SP1",
-      "cpu": "듀얼코어 2.4GHz",
-      "ram": "4GB 메모리",
-      "gpu": "지포스 GTX 460 / 라데온 HD 5750",
-      "storage": "15GB 여유 공간"
+      "os": "Windows 7 SP1",
+      "cpu": "Dual-core 2.4GHz",
+      "ram": "4GB RAM",
+      "gpu": "GeForce GTX 460 / Radeon HD 5750",
+      "storage": "15GB available space"
     },
     "recommended": {
-      "os": "윈도우 10",
-      "cpu": "쿼드코어 2.4GHz",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 770 / 라데온 R9 280",
-      "storage": "15GB SSD 권장"
+      "os": "Windows 10",
+      "cpu": "Quad-core 2.4GHz",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 770 / Radeon R9 280",
+      "storage": "15GB SSD recommended"
     }
   },
   "god-of-war": {
     "minimum": {
-      "os": "윈도우 10 64비트",
-      "cpu": "인텔 i5-2500K / AMD FX-6300",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 960 / 라데온 R9 290X",
-      "storage": "70GB 여유 공간"
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5-2500K / AMD FX-6300",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 960 / Radeon R9 290X",
+      "storage": "70GB available space"
     },
     "recommended": {
-      "os": "윈도우 10 64비트",
-      "cpu": "인텔 i5-6600K / AMD Ryzen 5 2400G",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 1060 / 라데온 RX 570",
-      "storage": "70GB SSD 권장"
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5-6600K / AMD Ryzen 5 2400G",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 1060 / Radeon RX 570",
+      "storage": "70GB SSD recommended"
     }
   },
   "dark-souls-iii": {
     "minimum": {
-      "os": "윈도우 7 SP1 64비트",
-      "cpu": "인텔 i3-2100 / AMD FX-6300",
-      "ram": "4GB 메모리",
-      "gpu": "지포스 GTX 750 Ti / 라데온 HD 7850",
-      "storage": "25GB 여유 공간"
+      "os": "Windows 7 SP1 64-bit",
+      "cpu": "Intel i3-2100 / AMD FX-6300",
+      "ram": "4GB RAM",
+      "gpu": "GeForce GTX 750 Ti / Radeon HD 7850",
+      "storage": "25GB available space"
     },
     "recommended": {
-      "os": "윈도우 10 64비트",
-      "cpu": "인텔 i7-3770 / AMD FX-8350",
-      "ram": "8GB 메모리",
-      "gpu": "지포스 GTX 970 / 라데온 R9 series",
-      "storage": "25GB SSD 권장"
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i7-3770 / AMD FX-8350",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 970 / Radeon R9 series",
+      "storage": "25GB SSD recommended"
     }
   }
 }

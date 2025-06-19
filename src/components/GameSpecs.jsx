@@ -34,29 +34,29 @@ function GameSpecs({ slug }) {
 
   return (
     <GameSpecBox>
-      <H1>PC 요구 사양</H1>
+      <H1>PC Requirements</H1>
       <GameSpecList>
         <div className="minimum">
-          <H2>최소 사양</H2>
+          <H2>Minimum</H2>
           {spec?.minimum && (
             <SpecList>
-              <div>운영체제 : {spec.minimum.os}</div>
+              <div>OS : {spec.minimum.os}</div>
               <div>CPU : {spec.minimum.cpu}</div>
               <div>RAM : {spec.minimum.ram}</div>
               <div>GPU : {spec.minimum.gpu}</div>
-              <div>저장공간 : {spec.minimum.storage}</div>
+              <div>Storage : {spec.minimum.storage}</div>
             </SpecList>
           )}
         </div>
         <div className="recommended">
-          <H2>권장 사양</H2>
+          <H2>Recommended</H2>
           {spec?.recommended && (
             <SpecList>
-              <div>운영체제 : {spec.recommended.os}</div>
+              <div>OS : {spec.recommended.os}</div>
               <div>CPU : {spec.recommended.cpu}</div>
               <div>RAM : {spec.recommended.ram}</div>
               <div>GPU : {spec.recommended.gpu}</div>
-              <div>저장공간 : {spec.recommended.storage}</div>
+              <div>Storage : {spec.recommended.storage}</div>
             </SpecList>
           )}
         </div>
