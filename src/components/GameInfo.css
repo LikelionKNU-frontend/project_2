@@ -1,9 +1,11 @@
 .gameInfo_wrap {
   margin-top: -33px;
 }
+
 .gameInfo {
   background: #eff0ff;
 }
+
 .game_name {
   font-size: 40px;
   position: relative;
@@ -17,32 +19,39 @@
   gap: 56px;
   justify-content: center;
 }
+
 .main_img {
   height: 288px;
 }
+
 .m_img {
   width: 512px;
 }
+
 .sub_imgs {
   margin-top: 16px;
   display: flex;
   gap: 4px;
 }
+
 .s_img {
   width: 125px;
   height: 70px;
 }
+
 .info_img {
   width: 431px;
   height: 242px;
   box-shadow: 5px 8px 4.7px rgba(0, 0, 0, 0.25);
 }
+
 .info_ra_da {
   display: flex;
   gap: 8px;
   justify-content: flex-end;
   align-items: center;
 }
+
 .info_content {
   overflow-y: scroll;
   width: 430px;

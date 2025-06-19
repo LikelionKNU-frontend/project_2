@@ -1,4 +1,6 @@
+import styled from "styled-components";
 import "./Platform.css";
+
 import {
   FaWindows,
   FaPlaystation,
@@ -39,26 +41,58 @@ const platformIcons = {
   Web: <FaGlobe />,
 };
 
+const PlatformBox = styled.div`
+  margin-top: 58px;
+  margin-left: 60px;
+
+  svg {
+    height: 50px;
+    width: 50px;
+    padding: 4px;
+  }
+`;
+
+const H1 = styled.h1`
+  width: 1320px;
+  border-bottom: 3px solid #a0b9f5;
+  padding-bottom: 8px;
+`;
+
+const PlatformIconList = styled.div`
+  display: flex;
+  gap: 16px;
+`;
+
+const PlatformIcon = styled.div`
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 30px;
+  border: 2px solid #a0b9f5;
+  p {
+    font-size: 10px;
+  }
+`;
+
 function Platform({ platforms }) {
   return (
-    <div className="platform">
-      <h1>플랫폼</h1>
-      <div className="game_platforms">
-        <div className="platform_icon_list">
-          {platforms?.map((p) => (
-            <div className="platform_icon">
-              <div
-                key={p.platform.id}
-                className={p.platform.name}
-                name={p.platform.name}
-              >
-                {platformIcons[p.platform.name]}
-              </div>
+    <PlatformBox>
+      <H1>플랫폼</H1>
+      <PlatformIconList>
+        {platforms?.map((p) => (
+          <PlatformIcon>
+            <div
+              key={p.platform.id}
+              className="platform_icon"
+              data-platform={p.platform.name}
+            >
+              {platformIcons[p.platform.name]}
+              <p>{p.platform.name}</p>
             </div>
-          ))}
-        </div>
-      </div>
-    </div>
+          </PlatformIcon>
+        ))}
+      </PlatformIconList>
+    </PlatformBox>
   );
 }
 

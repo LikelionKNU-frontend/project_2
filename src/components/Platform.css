@@ -1,69 +1,45 @@
-.platform {
-  margin-top: 58px;
-  margin-left: 60px;
-}
-
-.platform h1 {
-  width: 1320px;
-  border-bottom: 3px solid #a0b9f5;
-  padding-bottom: 8px;
-}
-.platform_icon_list {
-  display: flex;
-  gap: 16px;
-}
-.platform_icon {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  border-radius: 30px;
-  border: 2px solid #a0b9f5;
-}
-
-.platform svg {
-  height: 50px;
-  width: 50px;
-  padding: 4px;
-}
-
-.platform_icon .PC svg {
+.platform_icon[data-platform="PC"] {
   color: #0078d7;
 }
-.platform_icon .PlayStation svg,
-.platform_icon .PS-Vita svg {
+.platform_icon[data-platform="PlayStation 5"],
+.platform_icon[data-platform="PlayStation 4"],
+.platform_icon[data-platform="PlayStation 3"],
+.platform_icon[data-platform="PS-Vita"] {
   color: #003791;
 }
-
-.platform_icon .Xbox svg {
+.platform_icon[data-platform="Xbox Series S/X"],
+.platform_icon[data-platform="Xbox One"] {
   color: #107c10;
 }
-.platform_icon .Xbox360 {
+.platform_icon[data-platform="Xbox 360"] {
   color: #a0d034;
 }
-.platform_icon .Nintendo svg {
+.platform_icon[data-platform="Nintendo Switch"],
+.platform_icon[data-platform="Nintendo 3DS"],
+.platform_icon[data-platform="Nintendo DS"] {
   color: #e60012;
 }
-.platform_icon .Wii-U {
+.platform_icon[data-platform="Wii U"] {
   color: #62b5e5;
 }
-.platform_icon .Wii {
+.platform_icon[data-platform="Wii"] {
   color: #8b8b8b;
 }
-.platform_icon .GameCube {
+.platform_icon[data-platform="GameCube"] {
   color: #6a5acd;
 }
-.platform_icon .iOS {
+.platform_icon[data-platform="iOS"] {
   color: #000;
 }
-.platform_icon .Android {
+.platform_icon[data-platform="Android"] {
   color: #3ddc84;
 }
-.platform_icon .macOS {
+.platform_icon[data-platform="macOS"] {
   color: #999;
 }
-.platform_icon .Linux {
+.platform_icon[data-platform="Linux"] {
   color: #ffcc00;
 }
-.platform_icon .Web {
+.platform_icon[data-platform="Web"] {
   color: #808080;
 }

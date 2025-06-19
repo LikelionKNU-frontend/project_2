@@ -6,9 +6,9 @@ function GameInfoPage() {
   return (
     <div>
       <Nav />
-      <GameInfo slug="dark-souls-iii" />
+      {/* <GameInfo slug="dark-souls-iii" /> */}
       {/* <GameInfo slug="elden-ring" /> */}
-      {/* <GameInfo slug="grand-theft-auto-v" /> */}
+      <GameInfo slug="grand-theft-auto-v" />
       <Footer />
     </div>
   );

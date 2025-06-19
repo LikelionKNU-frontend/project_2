@@ -2,10 +2,10 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="footer_wrap">
+    <div className="footer_wrap">
+      <div className="footer_list_box">
         <h1>로고 이미지</h1>
-        <ul>
+        <ul className="footer_list">
           <li>
             <a href="?#">홈</a>
           </li>

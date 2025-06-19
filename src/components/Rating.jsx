@@ -22,8 +22,3 @@ function Rating({ rating }) {
 }
 
 export default Rating;
-/*
-레이팅은 최대가 5
-4.4라고 가정했을 때 정수 부분 4와 소수 부분 0.4
-
-*/

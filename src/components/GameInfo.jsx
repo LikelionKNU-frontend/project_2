@@ -4,6 +4,7 @@ import "./GameInfo.css";
 import Rating from "./Rating";
 import Category from "./Category";
 import Platform from "./Platfomr";
+import GameSpecs from "./GameSpecs";
 
 function GameInfo({ slug }) {
   const [game, setGame] = useState(null);
@@ -72,6 +73,7 @@ function GameInfo({ slug }) {
         </div>
       </div>
       <Platform platforms={game.platforms} />
+      <GameSpecs slug={slug} />
     </div>
   );
 }
