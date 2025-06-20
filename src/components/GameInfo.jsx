@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { fetchGameImages, fetchGameInfo } from "../api/api";
 import "../assets/GameInfo.css";
+import Loading from "./Loading";
+import Error from "./Error";
 import Rating from "./Rating";
 import Category from "./Category";
 import Platform from "./Platfomr";
 import GameSpecs from "./GameSpecs";
-import Loading from "./Loading";
-import Error from "./Error";
+import SiteUrl from "./SiteUrl";
 
 function GameInfo({ slug }) {
   const [game, setGame] = useState(null);
@@ -76,10 +77,9 @@ function GameInfo({ slug }) {
       </div>
       <Platform platforms={game.platforms} />
       <GameSpecs slug={slug} />
+      <SiteUrl homeUrl={game.website} redditUrl={game.reddit_url} />
     </div>
   );
 }
 
 export default GameInfo;
-
-// <p>{game.website}</p> */}
