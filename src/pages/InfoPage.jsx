@@ -10,8 +10,8 @@ function InfoPage() {
   return (
     <div>
       <Nav />
-        <h1>이건 페이지에서 직접 수정한거</h1>
-      <Info/>
+      <h1>이건 페이지에서 직접 수정한거</h1>
+      <Info />
       <Footer />
     </div>
   );
