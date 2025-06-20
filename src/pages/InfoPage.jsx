@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 
 import Nav from "../components/Nav";
-import GameInfo from "../components/Info";
+import GameInfo from "../components/GameInfo";
 import Footer from "../components/Footer";
 
 function InfoPage() {
