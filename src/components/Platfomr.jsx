@@ -86,6 +86,7 @@ function Platform({ platforms }) {
               key={p.platform.id}
               className="platform_icon"
               data-platform={p.platform.name}
+              title={p.platform.name}
             >
               {platformIcons[p.platform.name]}
               <p>{p.platform.name}</p>
