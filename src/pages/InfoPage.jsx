@@ -1,7 +1,10 @@
 import { useParams } from "react-router-dom";
 
 import Nav from "../components/Nav";
-import Info from "../components/Info";
+import SearchBar from "../components/SearchBar";
+import EventCarousel from "../components/EventCarousel";
+import RankingList from "../components/RankingList";
+import MonthlyPopularGames from "../components/MonthlyPopularGames";
 import Footer from "../components/Footer";
 
 function InfoPage() {
@@ -10,8 +13,10 @@ function InfoPage() {
   return (
     <div>
       <Nav />
-        <h1>이건 페이지에서 직접 수정한거</h1>
-      <Info/>
+      <SearchBar />
+      <EventCarousel />
+      <RankingList />
+      <MonthlyPopularGames />
       <Footer />
     </div>
   );
