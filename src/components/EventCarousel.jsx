@@ -7,9 +7,9 @@ import "../assets/EventCarousel.css";
 
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
-import eldenringImg from "../image/EldenRing.png";
-import planetzooImg from "../image/PlanetZoo.png";
-import fifaonline4Img from "../image/Fifa.png";
+import eldenringImg from "../assets/EldenRing.png";
+import planetzooImg from "../assets/PlanetZoo.png";
+import fifaonline4Img from "../assets/Fifa.png";
 
 const EventCarousel = () => {
   const games = [

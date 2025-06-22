@@ -3,6 +3,7 @@ import GameInfoPage from "./pages/GameInfoPage";
 import InfoPage from "./pages/InfoPage";
 import "./App.css";
 import ShowStackPage from "./pages/ShowStackPage";
+import ComingPage from "./pages/CommingPage";
 
 function App() {
   return (
@@ -12,9 +13,9 @@ function App() {
         <Route path="/index" element={<InfoPage />} />
         <Route path="/index/:slug" element={<GameInfoPage />} />
         <Route path="/index/showstack" element={<ShowStackPage />} />
+        <Route path="/index/coming" element={<ComingPage />} />
       </Routes>
     </BrowserRouter>
-    // <GameInfoPage />
   );
 }
 
