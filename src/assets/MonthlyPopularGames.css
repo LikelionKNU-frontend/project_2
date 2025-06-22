@@ -1,0 +1,61 @@
+.monthly-popular-section {
+  margin: 100px auto;
+  max-width: 1200px;
+  padding-top: 40px;
+  border-top: 2px solid #d6dffd;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.popular-game-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  background-color: #f5f8ff;
+  border-radius: 12px;
+}
+
+.popular-game-card {
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.popular-game-card:hover {
+  transform: translateY(-5px);
+}
+
+.popular-game-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+}
+
+.popular-game-info .game-rank-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.game-users {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.game-downloads {
+  font-size: 14px;
+  color: #444;
+}
