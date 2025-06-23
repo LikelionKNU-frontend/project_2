@@ -38,7 +38,7 @@ const MonthlyPopularGames = () => {
       <h2 className="section-title">👑 이달의 인기 게임</h2>
       <div className="popular-game-list">
         {gameData.map((game) => (
-          <Link to={`/index/${game.slug}`}>
+          <Link to={`/index/${game.slug}`} className="popular-item">
             <div key={game.rank} className="popular-game-card">
               <img
                 src={game.image}
