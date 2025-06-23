@@ -1,4 +1,3 @@
-// ✅ 수정된 RankingData.js (slug, id 추가 + 게임 5개 구성)
 const allGames = [
   {
     id: 1,
