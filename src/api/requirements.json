@@ -1,0 +1,226 @@
+{
+  "elden-ring": {
+    "minimum": {
+      "os": "Windows 10",
+      "cpu": "Intel 코어 i5-8400 / AMD Ryzen 3 3300X",
+      "ram": "12GB RAM",
+      "gpu": "GeForce GTX 1060 3GB / Radeon RX 580 4GB",
+      "storage": "60GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 / 11",
+      "cpu": "Intel 코어 i7-8700K / AMD Ryzen 5 3600X",
+      "ram": "16GB RAM",
+      "gpu": "GeForce GTX 1070 8GB / Radeon RX VEGA 56 8GB",
+      "storage": "60GB SSD recommended"
+    }
+  },
+  "the-witcher-3-wild-hunt": {
+    "minimum": {
+      "os": "64-bit Windows 7 / 8 / 10",
+      "cpu": "Intel i5-2500K / AMD FX-6300",
+      "ram": "6GB RAM",
+      "gpu": "GeForce GTX 660 / Radeon HD 7870",
+      "storage": "35GB available space"
+    },
+    "recommended": {
+      "os": "64-bit Windows 10",
+      "cpu": "Intel i7-3770 / AMD FX-8350",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 770 / Radeon R9 290",
+      "storage": "35GB SSD recommended"
+    }
+  },
+  "cyberpunk-2077": {
+    "minimum": {
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5-3570K / AMD FX-8310",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 780 / Radeon RX 470",
+      "storage": "70GB SSD recommended"
+    },
+    "recommended": {
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i7-4790 / AMD Ryzen 3 3200G",
+      "ram": "12GB RAM",
+      "gpu": "GeForce GTX 1060 / Radeon R9 Fury",
+      "storage": "70GB SSD required"
+    }
+  },
+  "red-dead-redemption-2": {
+    "minimum": {
+      "os": "Windows 7 SP1",
+      "cpu": "Intel i5-2500K / AMD FX-6300",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 770 / Radeon R9 280",
+      "storage": "150GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10",
+      "cpu": "Intel i7-4770K / AMD Ryzen 5 1500X",
+      "ram": "12GB RAM",
+      "gpu": "GeForce GTX 1060 6GB / Radeon RX 480 4GB",
+      "storage": "150GB SSD recommended"
+    }
+  },
+  "grand-theft-auto-v": {
+    "minimum": {
+      "os": "Windows 7 64-bit",
+      "cpu": "Intel Core 2 Quad Q6600 / AMD Phenom 9850",
+      "ram": "4GB RAM",
+      "gpu": "GeForce 9800 GT / Radeon HD 4870",
+      "storage": "72GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5 3470 / AMD FX-8350",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 660 / Radeon HD 7870",
+      "storage": "72GB SSD recommended"
+    }
+  },
+  "hollow-knight": {
+    "minimum": {
+      "os": "Windows 7",
+      "cpu": "Intel Core 2 Duo E5200",
+      "ram": "4GB RAM",
+      "gpu": "GeForce 9800GTX+",
+      "storage": "9GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10",
+      "cpu": "Intel Core i5",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 560",
+      "storage": "9GB SSD recommended"
+    }
+  },
+  "stardew-valley": {
+    "minimum": {
+      "os": "Windows Vista or higher",
+      "cpu": "2GHz Dual-core",
+      "ram": "2GB RAM",
+      "gpu": "Intel HD Graphics 3000 or higher",
+      "storage": "500MB available space"
+    },
+    "recommended": {
+      "os": "Windows 10",
+      "cpu": "2.5GHz Dual-core",
+      "ram": "4GB RAM",
+      "gpu": "GeForce GTX 660 or higher",
+      "storage": "500MB SSD recommended"
+    }
+  },
+  "hades": {
+    "minimum": {
+      "os": "Windows 7 SP1",
+      "cpu": "Dual-core 2.4GHz",
+      "ram": "4GB RAM",
+      "gpu": "GeForce GTX 460 / Radeon HD 5750",
+      "storage": "15GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10",
+      "cpu": "Quad-core 2.4GHz",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 770 / Radeon R9 280",
+      "storage": "15GB SSD recommended"
+    }
+  },
+  "god-of-war": {
+    "minimum": {
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5-2500K / AMD FX-6300",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 960 / Radeon R9 290X",
+      "storage": "70GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i5-6600K / AMD Ryzen 5 2400G",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 1060 / Radeon RX 570",
+      "storage": "70GB SSD recommended"
+    }
+  },
+  "dark-souls-iii": {
+    "minimum": {
+      "os": "Windows 7 SP1 64-bit",
+      "cpu": "Intel i3-2100 / AMD FX-6300",
+      "ram": "4GB RAM",
+      "gpu": "GeForce GTX 750 Ti / Radeon HD 7850",
+      "storage": "25GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 64-bit",
+      "cpu": "Intel i7-3770 / AMD FX-8350",
+      "ram": "8GB RAM",
+      "gpu": "GeForce GTX 970 / Radeon R9 series",
+      "storage": "25GB SSD recommended"
+    }
+  },
+  "playerunknowns-battlegrounds": {
+    "minimum": {
+      "os": "Windows 7/8.1/10 64-bit",
+      "cpu": "Intel i5-4430 / AMD FX-6300",
+      "ram": "8 GB RAM",
+      "gpu": "GeForce GTX 960 2 GB / Radeon R7 370 2 GB",
+      "storage": "40 GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 64‑bit",
+      "cpu": "Intel i5‑6600K / AMD Ryzen 5 1600",
+      "ram": "16 GB RAM",
+      "gpu": "GeForce GTX 1060 3 GB / Radeon RX 580 4 GB",
+      "storage": "50 GB available space"
+    }
+  },
+  "once-human": {
+    "minimum": {
+      "os": "Windows 10 64‑bit",
+      "cpu": "Intel Core i5‑4460",
+      "ram": "8 GB RAM",
+      "gpu": "GeForce GTX 750 Ti 4 GB / Radeon RX 550 4 GB",
+      "storage": "55 GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 64‑bit",
+      "cpu": "Intel Core i7‑7700",
+      "ram": "16 GB RAM",
+      "gpu": "GeForce GTX 1060 6 GB / Radeon RX 580 (or Intel ARC A380)",
+      "storage": "55 GB available space"
+    }
+  },
+  "overwatch": {
+    "minimum": {
+      "os": "Windows 7 / 8 / 10 64‑bit (latest Service Pack)",
+      "cpu": "Intel Core i3 or AMD Phenom X3 8650",
+      "ram": "4 GB RAM",
+      "gpu": "GeForce GTX 460 / Radeon HD 4850 / Intel HD Graphics 4400",
+      "storage": "30 GB available space"
+    },
+    "recommended": {
+      "os": "Windows 7 / 8 / 10 64‑bit",
+      "cpu": "Intel Core i5 or AMD Phenom II X3 or better",
+      "ram": "6 GB RAM",
+      "gpu": "GeForce GTX 660 or Radeon HD 7950 or better",
+      "storage": "30 GB available space"
+    }
+  },
+  "ea-sports-fc-25": {
+    "minimum": {
+      "os": "Windows 7 or later 64‑bit",
+      "cpu": "Intel Core i3‑2100 @ 3.1 GHz",
+      "ram": "4 GB RAM",
+      "gpu": "GeForce GT 730 or Radeon HD 7570 (1 GB)",
+      "storage": "18–20 GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 64‑bit",
+      "cpu": "Intel Core i5‑2550K @ 3.4 GHz",
+      "ram": "8 GB RAM",
+      "gpu": "GeForce GTX 460 / Radeon HD 6870 or GTX 670 / R9 270X",
+      "storage": "18–30 GB available space"
+    }
+  }
+}
