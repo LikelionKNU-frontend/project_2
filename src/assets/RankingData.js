@@ -2,7 +2,7 @@
 const allGames = [
   {
     id: 1,
-    slug: "civilization-6",
+    slug: "civilization-vi",
     title: "Civilization 6",
     image: require("../image/EldenRing.png"),
     tags: ["역사", "전략", "시뮬레이션", "전쟁", "싱글플레이"],

@@ -7,7 +7,7 @@ const LoadingWrap = styled.div`
 `;
 
 const LoadingBox = styled.div`
-  padding-top: 160px;
+  padding-top: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@ function Loading() {
           speedMultiplier={0.8}
           width={10}
         />
-        <b>page is loading....</b>
+        <b>Page is loading....</b>
       </LoadingBox>
     </LoadingWrap>
   );
