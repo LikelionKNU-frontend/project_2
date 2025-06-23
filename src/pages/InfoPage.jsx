@@ -8,8 +8,6 @@ import MonthlyPopularGames from "../components/MonthlyPopularGames";
 import Footer from "../components/Footer";
 
 function InfoPage() {
-  const { slug } = useParams();
-
   return (
     <div>
       <Nav />

@@ -1,59 +1,34 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
 import "../assets/EventCarousel.css";
-
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 import eldenringImg from "../image/EldenRing.png";
 import planetzooImg from "../image/PlanetZoo.png";
 import fifaonline4Img from "../image/Fifa.png";
 
-const EventCarousel = () => {
-  const games = [
-    { id: 1, title: "Elden Ring", imageUrl: eldenringImg },
-    { id: 2, title: "Planet Zoo", imageUrl: planetzooImg },
-    { id: 3, title: "FIFA Online 4", imageUrl: fifaonline4Img },
-  ];
+const games = [
+  { id: 1, slug: "elden-ring", title: "Elden Ring", image: eldenringImg },
+  { id: 2, slug: "planet-zoo", title: "Planet Zoo", image: planetzooImg },
+  {
+    id: 3,
+    slug: "fifa-online-4",
+    title: "FIFA Online 4",
+    image: fifaonline4Img,
+  },
+];
 
+const EventCarousel = () => {
   return (
     <section className="event-carousel">
-      <h2 className="carousel-title">
-        <span role="img" aria-label="tag">
-          🏷️
-        </span>{" "}
-        이벤트 진행 중인 게임들
-      </h2>
-
-      <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        loop={true}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-          slideShadows: false,
-        }}
-        pagination={{ clickable: true }}
-        modules={[EffectCoverflow, Pagination]}
-        className="carousel-container"
-      >
+      <h2 className="carousel-title">🏷️ 이벤트 진행 중인 게임들</h2>
+      <div className="event-list">
         {games.map((game) => (
-          <SwiperSlide key={game.id} className="carousel-slide">
-            <img
-              src={game.imageUrl}
-              alt={game.title}
-              className="carousel-image"
-            />
-          </SwiperSlide>
+          <Link key={game.id} to={`/games/${game.slug}`} className="event-card">
+            <img src={game.image} alt={game.title} className="event-image" />
+            <p className="event-title">{game.title}</p>
+          </Link>
         ))}
-      </Swiper>
+      </div>
     </section>
   );
 };

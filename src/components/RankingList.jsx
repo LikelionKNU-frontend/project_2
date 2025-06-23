@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../assets/RankingList.css";
+import { Link } from "react-router-dom";
 import allGames from "../assets/RankingData.js";
 
 const filters = ["전체", "최신순", "다운로드순", "인기순", "평점순"];
