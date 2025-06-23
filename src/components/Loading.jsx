@@ -7,14 +7,15 @@ const LoadingWrap = styled.div`
 `;
 
 const LoadingBox = styled.div`
-  padding-top: 200px;
+  padding-top: 240px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 32px;
 
-  b {
+  h2 {
     padding-left: 16px;
+    font-size: 1.8rem;
   }
 `;
 
@@ -24,13 +25,13 @@ function Loading() {
       <LoadingBox>
         <FadeLoader
           color="#79dbee"
-          height={40}
-          margin={20}
+          height={50}
+          margin={30}
           radius={2}
           speedMultiplier={0.8}
           width={10}
         />
-        <b>Page is loading....</b>
+        <h2>Page is loading....</h2>
       </LoadingBox>
     </LoadingWrap>
   );

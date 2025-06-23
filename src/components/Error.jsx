@@ -7,7 +7,7 @@ const ErrorWrap = styled.div`
 `;
 
 const ErrorBox = styled.div`
-  padding-top: 200px;
+  padding-top: 240px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +30,7 @@ function Error() {
   return (
     <ErrorWrap>
       <ErrorBox>
-        <FaExclamationTriangle color="#cf1322" size={50} />
+        <FaExclamationTriangle color="#cf1322" size={100} />
         <h2>Something went wrong</h2>
         <p>We couldn’t load the page. Please try again later.</p>
       </ErrorBox>
