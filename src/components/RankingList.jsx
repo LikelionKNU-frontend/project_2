@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../assets/RankingList.css";
+import { Link } from "react-router-dom";
 import allGames from "../assets/RankingData.js";
 
 const filters = ["전체", "최신순", "다운로드순", "인기순", "평점순"];
@@ -50,9 +50,7 @@ const RankingList = () => {
       {filteredGames.slice(0, 3).map((game, index) => (
         <div className="ranking-row" key={index}>
           <div className="rank-num">{index + 1}.</div>
-          <Link to={`/index/${game.slug}`}>
-            <img src={game.image} alt={game.title} className="rank-img" />
-          </Link>
+          <img src={game.image} alt={game.title} className="rank-img" />
           <div className="rank-title">{game.title}</div>
           <div className="rank-info">
             <p>{game.tags.join(", ")}</p>

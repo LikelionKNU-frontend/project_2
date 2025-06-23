@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const NavBox = styled.div`
@@ -51,17 +50,17 @@ function Nav() {
   return (
     <NavBox>
       <Logo>
-        <Link to="/index">Game Zone</Link>
+        <a href="?#">Game Zone</a>
       </Logo>
       <NavList>
         <li className="home">
-          <Link to="/index">Home</Link>
+          <a href="?#">Home</a>
         </li>
         <li className="event">
           <a href="?#">Event</a>
         </li>
         <li className="coming">
-          <Link to="/index/coming">Coming</Link>
+          <a href="?#">Coming</a>
         </li>
         <li className="comunity">
           <a href="?#">Comunity</a>

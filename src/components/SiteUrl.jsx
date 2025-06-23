@@ -11,12 +11,12 @@ const SiteUrleBox = styled.div`
   }
 
   .url_box a {
-    color: #123fa7;
+    color: black;
     text-decoration: none;
+    border-bottom: 2px solid #a0b9f5;
   }
 
   .url_box p {
-    color: #123fa7;
     margin: 0;
   }
 
