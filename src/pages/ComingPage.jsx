@@ -1,12 +1,13 @@
-import ComingSoon from "../components/ComingSoon";
 import Footer from "../components/Footer";
+import GameComing from "../components/GameComing";
 import Nav from "../components/Nav";
+
 
 function ComingPage() {
   return (
     <div>
       <Nav />
-      <ComingSoon />
+      <GameComing />
       <Footer />
     </div>
   );

@@ -33,7 +33,7 @@ const games = [
 const EventCarousel = () => {
   return (
     <section className="event-carousel">
-      <h2 className="carousel-title">🏷️ 이벤트 진행 중인 게임들</h2>
+      <h2 className="carousel-title">🏷️ In-Event Games</h2>
       <div className="event-list">
         {games.map((game) => (
           <a

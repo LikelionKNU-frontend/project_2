@@ -5,7 +5,7 @@ import Loading from "./Loading";
 import Error from "./Error";
 import Rating from "./Rating";
 import Category from "./Category";
-import Platform from "./Platfomr";
+import Platform from "./Platform";
 import GameSpecs from "./GameSpecs";
 import SiteUrl from "./SiteUrl";
 
@@ -13,10 +13,6 @@ function GameInfo({ slug }) {
   const [game, setGame] = useState(null);
   const [screenshots, setScreenshots] = useState([]);
   const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
 
   useEffect(() => {
     const loadData = async () => {

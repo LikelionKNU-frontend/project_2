@@ -8,7 +8,7 @@ import OverWatchImg from "../image/OverWatch.png";
 const gameData = [
   {
     rank: 1,
-    title: "배틀그라운드",
+    title: "BattleGround",
     slug: "playerunknowns-battlegrounds",
     image: BattleGroundImg,
     users: 5103,
@@ -16,7 +16,7 @@ const gameData = [
   },
   {
     rank: 2,
-    title: "원스 휴먼",
+    title: "Once Human",
     slug: "once-human",
     image: OnceHumanImg,
     users: 4826,
@@ -24,7 +24,7 @@ const gameData = [
   },
   {
     rank: 3,
-    title: "오버워치",
+    title: "OverWatch",
     slug: "overwatch",
     image: OverWatchImg,
     users: 3594,
@@ -35,7 +35,7 @@ const gameData = [
 const MonthlyPopularGames = () => {
   return (
     <section className="monthly-popular-section">
-      <h2 className="section-title">👑 이달의 인기 게임</h2>
+      <h2 className="section-title">👑 Monthly Top Games</h2>
       <div className="popular-game-list">
         {gameData.map((game) => (
           <Link to={`/index/${game.slug}`} className="popular-item">

@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
+
+import Logo from "../image/logo.png";
 
 const FooterBox = styled.div`
   margin-top: 56px;
@@ -13,15 +16,12 @@ const FooterListBox = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
   margin-bottom: 20px;
+  align-items: center;
 `;
 
-const H1 = styled.h1`
-  font-size: 24px;
-  font-weight: bold;
-  color: #ffffff;
-  margin: 0;
+const Img = styled.img`
+  width: 80px;
 `;
 
 const FooterList = styled.ul`
@@ -52,22 +52,22 @@ function Footer() {
   return (
     <FooterBox>
       <FooterListBox>
-        <H1>Logo Image</H1>
+        <Img src={Logo} alt="logo"></Img>
         <FooterList>
           <li>
-            <a href="?#">Home</a>
+            <Link to="/index">Home</Link>
           </li>
           <li>
-            <a href="?#">Event</a>
+            <Link to="/event">Event</Link>
           </li>
           <li>
-            <a href="?#">Coming</a>
+            <Link to="/coming">Coming</Link>
           </li>
           <li>
-            <a href="?#">Comunity</a>
+            <Link to="/comunity">Comunity</Link>
           </li>
           <li>
-            <a href="?#">MyPage</a>
+            <Link to="/mypage">MyPage</Link>
           </li>
         </FooterList>
       </FooterListBox>

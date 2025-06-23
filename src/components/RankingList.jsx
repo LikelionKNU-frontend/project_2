@@ -3,10 +3,10 @@ import "../assets/RankingList.css";
 import { Link } from "react-router-dom";
 import allGames from "../assets/RankingData.js";
 
-const filters = ["전체", "최신순", "다운로드순", "인기순", "평점순"];
+const filters = ["All", "Latest", "Downloads", "Popluar", "Ratings"];
 
 const RankingList = () => {
-  const [selectedFilter, setSelectedFilter] = useState("전체");
+  const [selectedFilter, setSelectedFilter] = useState("All");
 
   const handleFilterClick = (filter) => {
     setSelectedFilter(filter);
@@ -14,15 +14,15 @@ const RankingList = () => {
 
   const getFilteredGames = () => {
     switch (selectedFilter) {
-      case "최신순":
+      case "Latest":
         return [...allGames].sort(
           (a, b) => new Date(b.releaseDate) - new Date(a.releaseDate)
         );
-      case "다운로드순":
+      case "Downloads":
         return [...allGames].sort((a, b) => b.downloads - a.downloads);
-      case "인기순":
+      case "Popluar":
         return [...allGames].sort((a, b) => b.users - a.users);
-      case "평점순":
+      case "Ratings":
         return [...allGames].sort((a, b) => b.rating - a.rating);
       default:
         return allGames;
