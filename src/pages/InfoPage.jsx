@@ -1,5 +1,3 @@
-import { useParams } from "react-router-dom";
-
 import Nav from "../components/Nav";
 import SearchBar from "../components/SearchBar";
 import EventCarousel from "../components/EventCarousel";

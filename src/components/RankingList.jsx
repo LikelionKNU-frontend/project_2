@@ -50,7 +50,9 @@ const RankingList = () => {
       {filteredGames.slice(0, 3).map((game, index) => (
         <div className="ranking-row" key={index}>
           <div className="rank-num">{index + 1}.</div>
-          <img src={game.image} alt={game.title} className="rank-img" />
+          <Link to={`/index/${game.slug}`}>
+            <img src={game.image} alt={game.title} className="rank-img" />
+          </Link>
           <div className="rank-title">{game.title}</div>
           <div className="rank-info">
             <p>{game.tags.join(", ")}</p>
