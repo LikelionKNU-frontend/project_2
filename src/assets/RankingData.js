@@ -1,5 +1,8 @@
+// ✅ 수정된 RankingData.js (slug, id 추가 + 게임 5개 구성)
 const allGames = [
   {
+    id: 1,
+    slug: "civilization-6",
     title: "Civilization 6",
     image: require("../image/EldenRing.png"),
     tags: ["역사", "전략", "시뮬레이션", "전쟁", "싱글플레이"],
@@ -9,6 +12,8 @@ const allGames = [
     users: 18000,
   },
   {
+    id: 2,
+    slug: "dark-souls-3",
     title: "Dark Souls 3",
     image: require("../image/PlanetZoo.png"),
     tags: ["RPG", "3인칭", "싱글/멀티플레이", "PvP", "액션"],
@@ -18,6 +23,8 @@ const allGames = [
     users: 22000,
   },
   {
+    id: 3,
+    slug: "ea-sports-fc-25",
     title: "EA SPORTS FC™ 25",
     image: require("../image/Fifa.png"),
     tags: ["시뮬레이션", "e스포츠", "PvP", "축구", "싱글/멀티플레이"],
@@ -25,6 +32,28 @@ const allGames = [
     releaseDate: "2024-09-15",
     downloads: 4000000,
     users: 35000,
+  },
+  {
+    id: 4,
+    slug: "starfield",
+    title: "Starfield",
+    image: require("../image/Starfield.png"),
+    tags: ["오픈월드", "SF", "싱글플레이", "액션"],
+    rating: 4.2,
+    releaseDate: "2023-09-06",
+    downloads: 2800000,
+    users: 30000,
+  },
+  {
+    id: 5,
+    slug: "hogwarts-legacy",
+    title: "Hogwarts Legacy",
+    image: require("../image/Hogwarts.png"),
+    tags: ["RPG", "마법", "어드벤처", "싱글플레이"],
+    rating: 4.4,
+    releaseDate: "2023-02-10",
+    downloads: 4200000,
+    users: 41000,
   },
 ];
 
