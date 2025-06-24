@@ -78,7 +78,7 @@ const PlatformIcon = styled.div`
 function Platform({ platforms }) {
   return (
     <PlatformBox>
-      <H1>Platform</H1>
+      <H1>Platforms</H1>
       <PlatformIconList>
         {platforms?.map((p) => (
           <PlatformIcon>
@@ -94,6 +94,29 @@ function Platform({ platforms }) {
         ))}
       </PlatformIconList>
     </PlatformBox>
+  );
+}
+
+const PlatFormList = styled.div`
+  padding-left: 4px;
+  display: flex;
+  gap: 8px;
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+`;
+
+export function CardPlatform({ platforms }) {
+  return (
+    <PlatFormList>
+      {platforms.map((p) => (
+        <div className="platform_icon" data-platform={p}>
+          {platformIcons[p]}
+        </div>
+      ))}
+    </PlatFormList>
   );
 }
 

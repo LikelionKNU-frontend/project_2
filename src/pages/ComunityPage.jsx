@@ -1,3 +1,4 @@
+import ComingSoon from "../components/ComingSoon";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 
@@ -5,7 +6,7 @@ function ComunityPage() {
   return (
     <div>
       <Nav />
-      <h1>ComunityPage</h1>
+      <ComingSoon />
       <Footer />
     </div>
   );

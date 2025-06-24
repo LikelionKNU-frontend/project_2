@@ -59,3 +59,7 @@
   font-size: 14px;
   color: #444;
 }
+.popular-item {
+  text-decoration: none;
+  color: inherit;
+}

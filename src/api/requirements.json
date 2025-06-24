@@ -222,5 +222,53 @@
       "gpu": "GeForce GTX 460 / Radeon HD 6870 or GTX 670 / R9 270X",
       "storage": "18–30 GB available space"
     }
+  },
+  "civilization-vi": {
+    "minimum": {
+      "os": "Windows 7/8.1/10 64‑bit",
+      "cpu": "Intel Core i3 2.5 GHz / AMD Phenom II 2.6 GHz",
+      "ram": "4 GB RAM",
+      "gpu": "1 GB DirectX 11 (AMD 5570 / Nvidia 450)",
+      "storage": "12 GB available space"
+    },
+    "recommended": {
+      "os": "Windows 7/8.1/10 64‑bit",
+      "cpu": "Intel Core i5 2.5 GHz (4세대) / AMD FX‑8350 4.0 GHz",
+      "ram": "8 GB RAM",
+      "gpu": "2 GB DirectX 11 (AMD 7970 / Nvidia 770)",
+      "storage": "16 GB available space"
+    }
+  },
+  "hogwarts-legacy": {
+    "minimum": {
+      "os": "Windows 10 64‑bit",
+      "cpu": "Intel Core i5‑6600 (3.3 GHz) / AMD Ryzen 5 1400 (3.2 GHz)",
+      "ram": "16 GB RAM",
+      "gpu": "Nvidia GTX 960 4 GB / AMD RX 470 4 GB",
+      "storage": "85 GB available space"
+    },
+    "recommended": {
+      "os": "Windows 10 64‑bit",
+      "cpu": "Intel Core i7‑8700 (3.2 GHz) / AMD Ryzen 5 3600 (3.6 GHz)",
+      "ram": "16 GB RAM",
+      "gpu": "Nvidia GTX 1080 Ti / AMD RX 5700 XT / Intel Arc A770",
+      "storage": "85 GB SSD recommended"
+    }
+  },
+  "starfield": {
+    "minimum": {
+      "os": "Windows 10 version 21H1 (10.0.19043)",
+      "cpu": "AMD Ryzen 5 2600X / Intel Core i7‑6800K",
+      "ram": "16 GB RAM",
+      "gpu": "AMD RX 5700 / Nvidia GTX 1070 Ti",
+      "storage": "125 GB available space (SSD required)"
+    },
+    "recommended": {
+      "os": "Windows 10/11 with latest updates",
+      "cpu": "AMD Ryzen 5 3600X / Intel i5‑10600K",
+      "ram": "16 GB RAM",
+      "gpu": "AMD RX 6800 XT / Nvidia RTX 2080",
+      "storage": "125 GB available space (SSD required)"
+    }
   }
 }

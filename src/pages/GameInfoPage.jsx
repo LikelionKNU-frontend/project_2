@@ -14,9 +14,6 @@ function GameInfoPage() {
     <div>
       <Nav />
       <GameInfo slug={slug} />
-      {/* <GameInfo slug="elden-ring" /> */}
-      {/* <GameInfo slug="grand-theft-auto-v" /> */}
-      {/* <GameInfo slug="dark-souls-iii" /> */}
       <Footer />
     </div>
   );

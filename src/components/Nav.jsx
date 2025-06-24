@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
@@ -48,6 +49,10 @@ const NavList = styled.ul`
 `;
 
 function Nav() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <NavBox>
       <Logo>
