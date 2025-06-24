@@ -8,6 +8,53 @@ import Category from "./Category";
 import Platform from "./Platform";
 import GameSpecs from "./GameSpecs";
 import SiteUrl from "./SiteUrl";
+import styled from "styled-components";
+
+const GameInfoWrap = styled.div`
+  margin-top: -33px;
+`;
+
+const GameInfoBox = styled.div`
+  background: #eff0ff;
+`;
+
+const H2 = styled.h2`
+  font-size: 40px;
+  position: relative;
+  left: 90px;
+  padding-top: 20px;
+`;
+
+const GameImgBox = styled.div`
+  margin-top: -10px;
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+`;
+
+const MainImg = styled.div`
+  height: 288px;
+`;
+
+const SubImgs = styled.div`
+  margin-top: 16px;
+  display: flex;
+  gap: 4px;
+`;
+
+const InfoContent = styled.div`
+  margin-top: 4px;
+  overflow-y: scroll;
+  width: 430px;
+  height: 150px;
+`;
+
+const InfoRatingDate = styled.p`
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  align-items: center;
+`;
 
 function GameInfo({ slug }) {
   const [game, setGame] = useState(null);
@@ -36,20 +83,19 @@ function GameInfo({ slug }) {
   if (!game) return <Error />;
 
   return (
-    <div className="gameInfo_wrap">
-      <div className="gameInfo">
-        <h2 className="game_name">{game.name}</h2>
-        <div className="games">
+    <GameInfoWrap>
+      <GameInfoBox>
+        <H2 className="game_name">{game.name}</H2>
+        <GameImgBox>
           <div className="images">
-            <div className="main_img">
+            <MainImg>
               <img
-                key={screenshots[0].id}
                 src={screenshots[0].image}
                 alt="메인이미지"
                 className="m_img"
               ></img>
-            </div>
-            <div className="sub_imgs">
+            </MainImg>
+            <SubImgs>
               {screenshots.slice(1, 5).map((s) => (
                 <img
                   key={s.id}
@@ -58,7 +104,7 @@ function GameInfo({ slug }) {
                   className="s_img"
                 ></img>
               ))}
-            </div>
+            </SubImgs>
           </div>
           <div className="infos">
             <img
@@ -66,19 +112,19 @@ function GameInfo({ slug }) {
               alt={game.name}
               className="info_img"
             ></img>
-            <p className="info_content">{game.description_raw}</p>
-            <div className="info_ra_da">
+            <InfoContent>{game.description_raw}</InfoContent>
+            <InfoRatingDate>
               <Rating rating={game.rating} />
               <p className="game_date">Released : {game.released}</p>
-            </div>
+            </InfoRatingDate>
           </div>
           <Category tags={game.tags} />
-        </div>
-      </div>
+        </GameImgBox>
+      </GameInfoBox>
       <Platform platforms={game.platforms} />
       <GameSpecs slug={slug} />
       <SiteUrl homeUrl={game.website} redditUrl={game.reddit_url} />
-    </div>
+    </GameInfoWrap>
   );
 }
 

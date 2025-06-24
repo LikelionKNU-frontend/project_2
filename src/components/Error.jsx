@@ -7,7 +7,7 @@ const ErrorWrap = styled.div`
 `;
 
 const ErrorBox = styled.div`
-  padding-top: 240px;
+  padding-top: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
